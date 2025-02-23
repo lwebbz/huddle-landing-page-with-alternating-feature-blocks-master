@@ -515,15 +515,37 @@
   .transform {
     transform: var(--tw-rotate-x) var(--tw-rotate-y) var(--tw-rotate-z) var(--tw-skew-x) var(--tw-skew-y);
   }
+  .font-\[OpenSans\] {
+    font-family: OpenSans;
+  }
+  .font-bold {
+    --tw-font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-bold);
+  }
   .filter {
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }
 }
+@font-face {
+  font-family: "Poppins";
+  src: url(assets/fonts/Poppins-SemiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url(assets/fonts/OpenSans-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url(assets/fonts/OpenSans-Regular.ttf);
+  font-weight: 400;
+}
 :root {
-  --strong-cyan: hsl(171, 66%, 44%);
-  --light-blue: hsl(233, 100%, 69%);
-  --dark-grayish-blue: hsl(210, 10%, 33%);
-  --grayish-blue: hsl(201, 11%, 66%);
+  --very-pale-cyan: hsl(193, 100%, 96%);
+  --very-dark-cyan: hsl(192, 100%, 9%);
+  --grayish-blue: hsl(208, 11%, 55%);
+  --pink: hsl(322, 100%, 66%);
 }
 @keyframes spin {
   to {
@@ -575,6 +597,10 @@
   syntax: "*";
   inherits: false;
   initial-value: skewY(0);
+}
+@property --tw-font-weight {
+  syntax: "*";
+  inherits: false;
 }
 @property --tw-blur {
   syntax: "*";

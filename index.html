@@ -15,23 +15,45 @@
       Frontend Mentor | Huddle landing page with alternating feature blocks
     </title>
   </head>
-  <body class="font-[OpenSans]">
-    <header>
-      <div>
-        <img src="assets/images/logo.svg" alt="Huddle logo" />
-        <button>Try It Free</button>
+  <body class="font-[OpenSans] flex flex-col place-items-center text-lg">
+    <header
+      class="w-full flex flex-col place-items-center bg-[var(--very-pale-cyan)] bg-[url(assets/images/bg-hero-mobile.svg)] bg-center bg-no-repeat bg-cover mb-10"
+    >
+      <div class="w-full flex justify-between pt-5 pl-5 pr-5 pb-16">
+        <img
+          src="assets/images/logo.svg"
+          alt="Huddle logo"
+          class="h-auto w-32"
+        />
+        <button
+          class="bg-white pl-6 pr-6 pt-1.5 pb-1.5 rounded-3xl font-bold text-xs shadow-[0_2px_5px_lightgray]"
+        >
+          Try It Free
+        </button>
       </div>
-      <div>
-        <div>
-          <h1>Build The Community Your Fans Will Love</h1>
-          <p>
+      <div class="flex flex-col place-items-center">
+        <div
+          class="flex flex-col place-items-center box-border pl-8 pr-8 pb-13"
+        >
+          <h1 class="text-center font-[Poppins] text-2xl pb-5">
+            Build The Community Your Fans Will Love
+          </h1>
+          <p class="text-center pb-8">
             Huddle re-imagines the way we build communities. You have a voice,
             but so does your audience. Create connections with your users as you
             engage in genuine discussion.
           </p>
-          <button>Get Started For Free</button>
+          <button
+            class="bg-[var(--pink)] pl-14 pr-14 pt-3 pb-3 rounded-3xl text-white font-bold text-xs"
+          >
+            Get Started For Free
+          </button>
         </div>
-        <img src="assets/images/illustration-mockups.svg" alt="Mockups" />
+        <img
+          src="assets/images/illustration-mockups.svg"
+          alt="Mockups"
+          class="w-[80%] h-auto pb-9"
+        />
       </div>
     </header>
     <main>

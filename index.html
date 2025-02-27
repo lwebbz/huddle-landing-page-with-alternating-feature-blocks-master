@@ -123,12 +123,14 @@
         </div>
       </section>
     </main>
-    <footer class="flex flex-col bg-[var(--very-dark-cyan)] place-items-center">
+    <footer
+      class="flex flex-col bg-[var(--very-dark-cyan)] place-items-center box-content pl-5 pr-5"
+    >
       <div
-        class="flex flex-col place-items-center relative w-[90%] shadow-[0_0px_5px_gray] rounded-2xl bg-white -top-24"
+        class="flex flex-col place-items-center relative shadow-[0_0px_5px_gray] rounded-2xl bg-white -top-24 w-full max-w-md"
       >
         <h2 class="font-[Poppins] text-[var(--ver-dark-cyan)] pt-7 pb-5">
-          Ready To Build Your Community?
+          Ready To Build Your Community
         </h2>
         <button
           class="bg-[var(--pink)] pl-14 pr-14 pt-3 pb-3 rounded-3xl text-white font-bold text-xs mb-9"
@@ -136,50 +138,76 @@
           Get Started For Free
         </button>
       </div>
-      <div>
-        <div>
+      <div class="text-white">
+        <div class="">
           <img
             src="assets/images/logo.svg"
             alt="Huddle Logo"
-            class="brightness-[100000] grayscale-100"
+            class="brightness-[100000] grayscale-100 h-auto w-44 -mt-10 pb-8"
           />
-          <div>
-            <img src="assets/images/icon-location.svg" alt="location icon" />
-            <p>
+          <div class="flex place-items-start pb-10">
+            <img
+              src="assets/images/icon-location.svg"
+              alt="location icon"
+              class="h-5 w-5 mr-8"
+            />
+            <p class="align-top -mt-2">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua
             </p>
           </div>
-          <div>
-            <img src="assets/images/icon-phone.svg" alt="phone icon" />
-            <p>+1-543-123-4567</p>
+          <div class="flex place-items-start pb-10">
+            <img
+              src="assets/images/icon-phone.svg"
+              alt="phone icon"
+              class="h-5 w-5 mr-8"
+            />
+            <p class="align-top -mt-2 -ml-1">+1-543-123-4567</p>
           </div>
-          <div>
-            <img src="assets/images/icon-email.svg" alt="email icon" />
-            <p>example@huddle.com</p>
+          <div class="flex place-items-start pb-10">
+            <img
+              src="assets/images/icon-email.svg"
+              alt="email icon"
+              class="h-5 w-6 mr-8"
+            />
+            <p class="align-top -mt-2 -ml-2">example@huddle.com</p>
           </div>
         </div>
-        <div>
-          <a href="">About Us</a>
-          <a href="">What We Do</a>
-          <a href="">FAQ</a>
-          <a href="">Career</a>
-          <a href="">Blog</a>
-          <a href="">Contact Us</a>
-        </div>
-        <div>
+        <ul class="flex flex-col gap-4 pb-12">
+          <li><a href="">About Us</a></li>
+          <li><a href="">What We Do</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Career</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+        <div class="flex justify-center gap-3 invert-100 pb-6">
           <a href="facebook.com">
-            <img src="assets/images/logo-facebook.svg" alt="Facebook icon" />
+            <img
+              src="assets/images/logo-facebook.svg"
+              alt="Facebook icon"
+              class="h-8 w-8"
+            />
           </a>
           <a href="twitter.com">
-            <img src="assets/images/logo-twitter.svg" alt="Twitter icon" />
+            <img
+              src="assets/images/logo-twitter.svg"
+              alt="Twitter icon"
+              class="h-8 w-8"
+            />
           </a>
           <a href="instagram.com">
-            <img src="assets/images/logo-instagram.svg" alt="Instagram icon" />
+            <img
+              src="assets/images/logo-instagram.svg"
+              alt="Instagram icon"
+              class="h-8 w-8"
+            />
           </a>
         </div>
       </div>
-      <div>
+      <div
+        class="flex justify-center items-center text-center text-white text-xs pb-14"
+      >
         <p>&copy; Copyright 2018 Huddle. All rights reserved.</p>
       </div>
     </footer>

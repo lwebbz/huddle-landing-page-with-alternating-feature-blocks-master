@@ -641,6 +641,15 @@
   .gap-4 {
     gap: calc(var(--spacing) * 4);
   }
+  .place-self-end {
+    place-self: end;
+  }
+  .self-end {
+    align-self: flex-end;
+  }
+  .justify-self-end {
+    justify-self: flex-end;
+  }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
   }

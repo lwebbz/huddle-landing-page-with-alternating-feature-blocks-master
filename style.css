@@ -560,6 +560,15 @@
   .h-auto {
     height: auto;
   }
+  .h-dvh {
+    height: 100dvh;
+  }
+  .h-lvh {
+    height: 100lvh;
+  }
+  .min-h-dvh {
+    min-height: 100dvh;
+  }
   .w-5 {
     width: calc(var(--spacing) * 5);
   }

@@ -17,7 +17,7 @@
   </head>
   <body class="font-[OpenSans] flex flex-col place-items-center text-lg">
     <header
-      class="w-full flex flex-col place-items-center bg-[var(--very-pale-cyan)] bg-[url(assets/images/bg-hero-mobile.svg)] bg-center bg-no-repeat bg-cover mb-10 md:bg-[url(assets/images/bg-hero-desktop.svg)]"
+      class="w-full flex flex-col place-items-center bg-[var(--very-pale-cyan)] bg-[url(assets/images/bg-hero-mobile.svg)] bg-center bg-no-repeat bg-cover mb-10 md:bg-[url(assets/images/bg-hero-desktop.svg)] md:mb-20"
     >
       <div
         class="flex justify-between w-full pt-5 pb-16 pl-5 pr-5 md:box-border md:pl-12 md:pr-12 md:pt-8"
@@ -33,12 +33,14 @@
           Try It Free
         </button>
       </div>
-      <div class="flex flex-col place-items-center md:flex-row">
+      <div
+        class="flex flex-col place-items-center md:flex-row md:box-border md:pl-10 md:pr-10"
+      >
         <div
-          class="box-border flex flex-col pl-8 pr-8 place-items-center pb-13 md:max-w-lg"
+          class="box-border flex flex-col pl-8 pr-8 place-items-center pb-13 md:max-w-2xl"
         >
           <h1
-            class="text-center font-[Poppins] text-2xl pb-5 md:text-left md:text-3xl"
+            class="text-center font-[Poppins] text-2xl pb-5 md:text-left md:text-4xl"
           >
             Build The Community Your Fans Will Love
           </h1>
@@ -56,26 +58,30 @@
         <img
           src="assets/images/illustration-mockups.svg"
           alt="Mockups"
-          class="w-[80%] h-auto pb-9 max-w-lg"
+          class="w-[80%] h-auto pb-9 max-w-3xl"
         />
       </div>
     </header>
-    <main class="box-content flex flex-col p-6 pb-52">
+    <main
+      class="box-content flex flex-col p-6 pb-52 place-items-center md:w-full"
+    >
       <section
-        class="flex flex-col place-items-center shadow-[0_0px_5px_lightgray] rounded-2xl box-content pt-14 pl-8 pr-8 pb-5 mb-10"
+        class="flex flex-col place-items-center shadow-[0_0px_5px_lightgray] rounded-2xl box-content pt-14 pl-8 pr-8 pb-5 mb-10 md:flex-row md:w-[85%] md:max-w-7xl md:justify-between"
       >
         <img
           src="assets/images/illustration-grow-together.svg"
           alt="Grow together"
-          class="pb-12"
+          class="pb-12 md:order-2 md:max-w-sm md:shrink"
         />
-        <div>
+        <div class="pl-10 md:order-1 md:max-w-lg md:pl-10">
           <h2
-            class="text-center font-[Poppins] pb-2 text-xl text-[var(--very-dark-cyan)]"
+            class="text-center font-[Poppins] pb-2 text-xl text-[var(--very-dark-cyan)] md:text-left"
           >
             Grow Together
           </h2>
-          <p class="text-center text-[var(--grayish-blue)] pb-5 text-base">
+          <p
+            class="text-center text-[var(--grayish-blue)] pb-5 text-base md:text-left"
+          >
             Generate meaningful discussions with your audience and build a
             strong, loyal community. Think of the insightful conversations you
             miss out on with a feedback form.
@@ -83,21 +89,23 @@
         </div>
       </section>
       <section
-        class="flex flex-col place-items-center shadow-[0_0px_5px_lightgray] rounded-2xl box-content pt-14 pl-8 pr-8 pb-5 mb-10"
+        class="flex flex-col place-items-center shadow-[0_0px_5px_lightgray] rounded-2xl box-content pt-14 pl-8 pr-8 pb-5 mb-10 md:flex-row md:w-[85%] md:max-w-7xl md:justify-around"
       >
         <img
           src="assets/images/illustration-flowing-conversation.svg"
           alt="Flowing conversation"
-          class="pb-12"
+          class="pb-12 md:max-w-sm md:shrink md:order-1"
         />
 
-        <div>
+        <div class="pl-10 md:max-w-lg md:pl-10 md:order-2">
           <h2
-            class="text-center font-[Poppins] pb-2 text-xl text-[var(--very-dark-cyan)]"
+            class="text-center font-[Poppins] pb-2 text-xl text-[var(--very-dark-cyan)] md:text-left"
           >
             Flowing Conversations
           </h2>
-          <p class="text-center text-[var(--grayish-blue)] pb-5 text-base">
+          <p
+            class="text-center text-[var(--grayish-blue)] pb-5 text-base md:text-left"
+          >
             You wouldn't paginate a conversation in real life, so why do it
             online? Our threads have just-in-time loading for a more natural
             flow.
@@ -105,21 +113,23 @@
         </div>
       </section>
       <section
-        class="flex flex-col place-items-center shadow-[0_0px_5px_lightgray] rounded-2xl box-content pt-14 pl-8 pr-8 pb-5 mb-10"
+        class="flex flex-col place-items-center shadow-[0_0px_5px_lightgray] rounded-2xl box-content pt-14 pl-8 pr-8 pb-5 mb-10 md:flex-row md:w-[85%] md:max-w-7xl md:justify-between"
       >
         <img
           src="assets/images/illustration-your-users.svg"
           alt="Users"
-          class="pb-12"
+          class="pb-12 md:max-w-sm md:shrink md:order-2"
         />
 
-        <div>
+        <div class="md:max-w-lg md:pl-10 md:order-1">
           <h2
-            class="text-center font-[Poppins] pb-2 text-xl text-[var(--very-dark-cyan)]"
+            class="text-center font-[Poppins] pb-2 text-xl text-[var(--very-dark-cyan)] md:text-left"
           >
             Your Users
           </h2>
-          <p class="text-center text-[var(--grayish-blue)] pb-5 text-base">
+          <p
+            class="text-center text-[var(--grayish-blue)] pb-5 text-base md:text-left"
+          >
             It takes no time at all to integrate Huddle with your app's
             authentication solution. This means, once signed in to your app,
             your users can start chatting immediately.
